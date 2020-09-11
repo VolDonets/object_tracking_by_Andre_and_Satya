@@ -13,7 +13,7 @@ from imutils.video import FPS
 import argparse
 import imutils
 
-file_name = 'models/Hand_Detector_v6_c20.svm'
+file_name = 'models/Hand_Detector_v8_c8.svm'
 detector = dlib.simple_object_detector(file_name)
 
 cv2.namedWindow('frame', cv2.WINDOW_NORMAL)
